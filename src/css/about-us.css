@@ -1,53 +1,40 @@
-.section-about-us {
+.container.about-us {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    align-items: center;
 }
 
 .benefits-about-us {
-    background-color: #f3f3f3;
+    background-color: var(--cards);
     border-radius: 30px;
     padding: 40px 20px;
     max-width: 335px;
-    min-width: 335px;
 }
 
-.title-about-us {
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    color: #0c0c0c;
+.section-title.about-us {
     margin-bottom: 28px;
 }
 
-.text-about-us{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.28;
-    letter-spacing: -0.02em;
-    color: rgba(12, 12, 12, 0.7);
-    min-width: 295px;
+.section-text.about-us{
     margin-bottom: 20px;
 }
 
-.text-about-us.lead{
+.section-text.about-us.lead{
     margin-bottom: 40px;
 }
 
 .btn-about-us {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.28;
+    line-height: 129%;
     text-align: center;
-    color: #fbfbfb;
-    background-color: #3350e9;
+    color: var(--background);
+    background-color: var(--accent);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     display: block;
     border: none;
     border-radius: 16px;
-    padding: 16px 32px;
+    padding: 15px 37px 15px 38px;
     width: 160px;
     height: 48px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -58,61 +45,33 @@
     background-color: #1f3cd4;
 }
 
-.picture-about-us {
-    border-radius: 30px;
-    width: 335px;
-    background-color: rgba(12, 12, 12, 0.2);
-}
-
-@media screen and (min-width: 768px) and (max-width: 1280px) {
-    .benefits-about-us,
-    .picture-about-us {
-        min-width: 704px;
-    }
-
-    .text-about-us {
-        min-width: 584px;
-    }
-}
-
 @media screen and (min-width: 768px) {
-    .section-about-us {
+    .container.about-us {
         gap: 40px;
     }
 
     .benefits-about-us {
+        max-width: 704px;
         padding: 80px 60px;
     }
 
-    .title-about-us {
-        font-size: 48px;
-        line-height: 0.91;
+    .section-title.about-us {
         margin-bottom: 40px;
     }
 
-    .text-about-us {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.25;
+    .section-text.about-us {
         margin-bottom: 20px;
     }
 
-    .text-about-us.lead {
+    .section-text.about-us.lead {
         margin-bottom: 60px;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .section-about-us {
+    .container.about-us {
         flex-direction: row;
-        justify-content: center;
     }
-
-    .benefits-about-us,
-    .picture-about-us {
-        flex: 1;
-    }
-
     .benefits-about-us {
         max-width: 580px;
     }
@@ -121,15 +80,11 @@
         max-width: 530px;
     }
 
-    .text-about-us {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.25;
-        max-width: 460px;
+    .section-text.about-us {
         margin-bottom: 20px;
     }
 
-    .text-about-us.lead {
+    .section-text.about-us.lead {
         margin-bottom: 40px;
     }
 }
