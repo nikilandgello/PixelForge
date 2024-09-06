@@ -1,39 +1,49 @@
 body {
   margin: 0;
 }
+/* #region main mobile screen */
 .ftr {
   padding: 0 20px;
+  min-width: 320px;
+  margin: 0 auto;
+  @font-face {
+    font-family: Gilroy;
+    src: url('../fonts/Gilroy-Semibold.ttf');
+    font-weight: 500;
+    font-style: normal;
+  }
 }
 
 .ftr-container {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   padding: 40px 28px 28px;
   height: 581px;
-  background-color: #0c0c0c;
+  background-color: var(--main);
   border-radius: 30px;
   border: 1px solid;
-  margin-bottom: 20px;
+  margin-bottom: 0 auto 20px;
 }
 
 .cont {
   display: flex;
   flex-direction: column;
-  gap: 92px;
   margin: 0 auto;
+  justify-content: space-between;
 }
 
 .ftr-first {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  /* margin-bottom: 92px; */
 }
 .ftr-logo {
-  color: #fbfbfb;
-  font-family: Gilroy;
+  color: var(--background);
+  /* font-family: inherit; */
   font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
+  /* font-style: normal;
+  font-weight: 500; */
   line-height: normal;
   letter-spacing: -0.02em;
 }
@@ -56,59 +66,58 @@ body {
 
 .soc-icon {
   opacity: 0.8;
-  fill: #fbfbfb;
+  fill: var(--background);
 }
 
 .soc-icon:hover,
 .soc-icon:focus {
-  fill: #fbfbfb;
   opacity: 1;
 }
 
 .ftr-address-tel {
   display: flex;
 
-  width: 152px;
+  max-width: 152px;
   height: 44px;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 16px;
   margin-bottom: 20px;
 }
 .footer-contact {
-  color: #fbfbfb;
+  color: var(--background);
 
   text-align: center;
-  font-family: Gilroy;
+  /* font-family: inherit; */
   font-size: 12px;
-  font-style: normal;
-  font-weight: 500;
+  /* font-style: normal;
+  font-weight: 500; */
   line-height: 16px; /* 133.333% */
   /* text-transform: uppercase; */
 
   margin: auto auto;
 }
 .ftr-txt {
-  color: #fbfbfb;
+  color: var(--background);
 
   text-align: center;
   /* Mobile/H4 */
-  font-family: Gilroy;
+  /* font-family: Gilroy; */
   font-size: 20px;
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: 600;
   line-height: 24px; /* 120% */
   letter-spacing: -0.02em;
-  width: 279px;
+  max-width: 279px;
 }
-.ftr-second {
-  /* display: flex;
-  gap: 49px; */
-}
+/* .ftr-second {
+  display: flex;
+  gap: 49px;
+} */
 
 .ftr-nav-thumb {
   display: flex;
   gap: 49px;
-  width: 279px;
+  max-width: 279px;
   height: 64px;
   margin-bottom: 48px;
 
@@ -127,7 +136,8 @@ body {
 
 .ftr-nav {
   display: block;
-  width: 147px;
+  max-width: 147px;
+  /* margin-right: 49px; */
 }
 .ftr-nav-list {
   display: flex;
@@ -135,38 +145,39 @@ body {
   flex-wrap: wrap;
   row-gap: 8px;
   column-gap: 16px;
-  color: #fbfbfb;
+  color: var(--background);
 
   text-align: center;
-  font-family: Gilroy;
+  /* font-family: Gilroy; */
   font-size: 12px;
-  font-style: normal;
-  font-weight: 500;
+  /* font-style: normal;
+  font-weight: 500; */
   line-height: 16px; /* 133.333% */
 }
 
 .location {
-  color: #fbfbfb;
+  color: var(--background);
 
-  font-family: Gilroy;
+  /* font-family: Gilroy; */
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: 16px; /* 133.333% */
-  width: 83px;
+  /* letter-spacing: -0.02em; */
+  max-width: 83px;
 }
 
 .ftr-finish-txt-thumb {
   display: flex;
-  width: 187px;
+  max-width: 187px;
   flex-direction: column;
   gap: 8px;
   color: rgba(251, 251, 251, 0.5);
 
-  font-family: Gilroy;
+  /* font-family: Gilroy; */
   font-size: 10px;
-  font-style: normal;
-  font-weight: 500;
+  /* font-style: normal;
+  font-weight: 500; */
   line-height: 14px; /* 140% */
   letter-spacing: -0.02em;
 }
@@ -176,6 +187,16 @@ body {
   gap: 20px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .ftr {
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+}
+
+/* #endregion main mobile screen */
+/* #region main tab and desk screen */
 @media screen and (min-width: 768px) {
   .ftr {
     padding: 0 32px 32px;
@@ -190,7 +211,7 @@ body {
   .ftr-address-tel {
     display: flex;
 
-    width: 160px;
+    max-width: 160px;
     height: 48px;
   }
   .footer-contact {
@@ -201,7 +222,7 @@ body {
     font-size: 28px;
     line-height: 32px; /* 120% */
     letter-spacing: -0.02em;
-    width: 524px;
+    max-width: 524px;
   }
 
   .ftr-first {
@@ -215,7 +236,6 @@ body {
   .ftr-nav-list {
     display: flex;
     flex-direction: row;
-    color: #fbfbfb;
 
     text-align: center;
     font-size: 14px;
@@ -224,7 +244,7 @@ body {
   .location {
     font-size: 14px;
     line-height: 18px; /* 133.333% */
-    width: 162px;
+    max-width: 162px;
   }
   .ftr-nav-thumb::after {
     bottom: -28px;
@@ -233,11 +253,17 @@ body {
     font-size: 14px;
     line-height: 18px;
     letter-spacing: -0.02em;
-    width: 100%;
+    max-width: 100%;
     flex-direction: row;
+    gap: 0;
+    justify-content: space-between;
+  }
+  .ftr-finish-txt {
+    min-width: 261px;
   }
 }
-
+/* #endregion main tab and desk screen */
+/* #region main tab screen */
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .ftr-container {
     height: 540px;
@@ -254,22 +280,26 @@ body {
   }
   .ftr-nav-thumb {
     display: flex;
-    gap: 62px;
-    width: 624px;
+    /* gap: 62px; */
+    justify-content: space-between;
+    max-width: 624px;
     height: 36px;
     margin-bottom: 56px;
   }
   .ftr-nav {
-    width: 400px;
+    max-width: 400px;
+    /* margin-right: 62px; */
   }
   .ftr-nav-list {
     gap: 19px;
   }
-  .ftr-finish-txt-thumb {
-    gap: 159px;
+  .ftr-finish-txt {
+    min-width: 261px;
+    /* margin-right: 159px; */
   }
 }
-
+/* #endregion main tab screen */
+/* #region main desk screen */
 @media screen and (min-width: 1280px) {
   .ftr-container {
     height: 400px;
@@ -287,18 +317,19 @@ body {
   }
   .ftr-nav-thumb {
     display: flex;
-    gap: 469px;
-    width: 1136px;
+    justify-content: space-between;
+    max-width: 1136px;
     height: 36px;
     margin-bottom: 56px;
   }
   .ftr-nav {
-    width: 505px;
+    max-width: 505px;
   }
   .ftr-nav-list {
     gap: 40px;
   }
-  .ftr-finish-txt-thumb {
-    gap: 671px;
+  .ftr-finish-txt {
+    /* margin-right: 671px; */
   }
 }
+/* #endregion main tab screen */
