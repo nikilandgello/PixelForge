@@ -17,8 +17,5 @@
 <symbol id="icon-Menu" viewBox="0 0 68 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6" d="M4 4.333h60M4 27.667h60"></path>
 </symbol>
-<symbol id="icon-Ellipse" viewBox="0 0 36 32">
-<path fill="#3350e9" style="fill: var(--color2, #3350e9)" d="M34 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
-</symbol>
   </defs>
 </svg>
