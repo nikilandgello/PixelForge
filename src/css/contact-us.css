@@ -1,6 +1,7 @@
 .contact-us {
     padding-bottom: 60px;
 }
+
 .title {
     font-weight: 600;
     font-size: 32px;
@@ -40,6 +41,7 @@
     line-height: 1.28571;
     color: var(--main);
     transition: border-color 250ms ease-in-out;
+    outline: transparent;
 }
 
 .form-input:focus {
@@ -60,6 +62,8 @@
     line-height: 1.28571;
     color: var(--main);
     margin-bottom: 28px;
+    outline: transparent;
+    transition: border-color 250ms ease-in-out;
 }
 
 .form-comment:focus {
@@ -91,4 +95,57 @@
 .contact-img {
     border-radius: 30px;
 
+}
+
+/* Tab */
+
+@media screen and (min-width: 768px) {
+    .title  {
+        font-size: 48px;
+        margin-bottom: 40px;
+    }
+
+    .form-div {
+        width: 704px;
+        padding: 50px 122px;
+        border-radius: 50px;
+        margin-bottom: 40px;
+    }
+
+    .form-text {
+        font-size: 16px;
+        margin-bottom: 32px;
+    }
+
+    .form-input {
+        padding-bottom: 16px;
+        padding-top: 16px;
+    }
+
+    .form-comment {
+        padding-bottom: 16px;
+        padding-top: 16px;
+        height: 90px;
+        margin-bottom: 32px;
+    }
+
+    .form-button {
+        padding: 17px 63px;
+    }
+}
+
+/* Desk */
+
+@media screen and (min-width: 1280px) {
+    .contact-items {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .form-div {
+        width: 580px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
 }
