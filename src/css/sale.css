@@ -1,0 +1,112 @@
+.section {
+}
+.container {
+  padding: 0;
+}
+.section-title {
+  margin-bottom: 24px;
+}
+.img-windows-set {
+}
+.around-set {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+.around-holder {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 16px;
+  width: 80px;
+  height: 80px;
+  background: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.around.img {
+}
+.big-img-holder {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 335px;
+  height: 385px;
+  background: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.big-img {
+}
+.watch-description {
+  border-radius: 30px;
+  width: 335px;
+  height: 561px;
+  background: #3350e9;
+  padding: 48px 28px;
+}
+.description-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 10px;
+}
+.product-id {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+  margin-bottom: 20px;
+}
+.price-holder {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  margin-bottom: 28px;
+}
+.sale-price {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  border-radius: 8px;
+  width: 68px;
+  height: 32px;
+  background: rgba(251, 251, 251, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.total-price {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+}
+.section-text {
+}
+.description {
+  color: rgba(251, 251, 251, 0.7);
+  margin-bottom: 28px;
+}
+.features-holder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.watch-features {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
