@@ -1,5 +1,5 @@
-.contact-us {
-    padding-bottom: 60px;
+.container {
+    padding: 0;
 }
 
 .title {
@@ -83,7 +83,6 @@
     font-size: 14px;
     line-height: 1.28571;
     text-align: center;
-    cursor: pointer;
     border: none;
     transition: background-color 250ms ease-in-out;
 }
@@ -96,15 +95,14 @@
     background-color: #1F3CD4;
 }
 
-picture img{
-    display: block;
-    max-width: 100%; 
-    height: auto;  
-}
-
 /* Tab */
 
 @media screen and (min-width: 768px) {
+
+    .container {
+        padding: 0 32px;
+    }
+
     .title  {
         font-size: 48px;
         margin-bottom: 40px;
@@ -142,10 +140,15 @@ picture img{
 /* Desk */
 
 @media screen and (min-width: 1280px) {
+    .container {
+        padding: 0 65px;
+    }
+
     .contact-items {
         display: flex;
         flex-direction: row;
         gap: 40px;
+        justify-content: space-around;
     }
 
     .form-div {
