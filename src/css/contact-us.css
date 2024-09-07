@@ -96,8 +96,10 @@
     background-color: #1F3CD4;
 }
 
-.picture {
-    min-width: 335px;
+picture img{
+    display: block;
+    max-width: 100%; 
+    height: auto;  
 }
 
 /* Tab */
