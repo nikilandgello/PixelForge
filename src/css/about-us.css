@@ -15,11 +15,11 @@
     margin-bottom: 28px;
 }
 
-.section-text.about-us{
+.section-text.about-us {
     margin-bottom: 20px;
 }
 
-.section-text.about-us.lead{
+.section-text.about-us.lead {
     margin-bottom: 40px;
 }
 
@@ -58,7 +58,7 @@
     .section-title.about-us {
         margin-bottom: 40px;
     }
-    
+
     .section-text.about-us.lead {
         margin-bottom: 60px;
     }
@@ -68,6 +68,7 @@
     .container.about-us {
         flex-direction: row;
     }
+
     .benefits-about-us {
         max-width: 580px;
     }
