@@ -2,16 +2,6 @@
 
 /* Reviews */
 
-.page-reviews {
-    background-color: #FBFBFB;
-    margin-top: 0;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0;
-    margin-bottom: 60px;
-
-}
-
 .reviews-name {
     font-weight: 600;
     font-size: 32px;
@@ -23,17 +13,19 @@
 
 .reviews-list {
     display: flex;
-    flex-wrap: wrap;
-
+   
     align-items: center;
     justify-content: center;
-    row-gap: 72px;
+ 
+    overflow: auto;
+    max-height: 262px; 
+    gap: 16px;
 
 }
 
 
 .reviews-item {
-    background-color: #f3f3f3;
+    background-color: var(--cards);
     border-radius: 30px;
     padding: 32px 36px;
     width: 335px;
@@ -50,7 +42,7 @@
 .reviews-container {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+
     flex-direction: column;
     gap: 8px;
 
@@ -64,7 +56,7 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: #0c0c0c;
-    margin-bottom: 8px;
+    
 }
 
 .reviews-text {
@@ -75,45 +67,39 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: rgba(12, 12, 12, 0.4);
+
+    
+}
+.reviews-item-two {
+    display: none;
+}
+
+.reviews-item-three {
+    display: none;
 }
 
 
-
-@media (max-width: 320px) {
-    .reviews-item-two {
-        display: none;
-    }
-
-    .reviews-item-three {
-        display: none;
-    }
-}
 
 
 @media (min-width: 320px) and (max-width: 374px) {
-    .container {
-        width: 100%;
-        padding: 0 20px;
-        margin: 0 auto;
-    }
-
-    .reviews-item-two {
+  
+  .reviews-item-two {
         display: none;
     }
 
     .reviews-item-three {
         display: none;
     }
-}
+}  
 
 @media (min-width: 321px) and (max-width: 767px) {
-    .reviews-item-two {
+  .reviews-item-two {
         display: none;
     }
 
     .reviews-item-three {
         display: none;
-    }
+    } 
 }
 
 @media screen and (min-width: 768px) {
@@ -155,10 +141,10 @@
         font-size: 16px;
         line-height: 1.25;
     }
+     .reviews-item-two {
+        display: block;}
 
-    .reviews-item-three {
-        display: none;
-    }
+   
 }
 
 @media screen and (min-width: 1280px) {
