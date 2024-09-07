@@ -2,12 +2,7 @@
     display: none;
 }
 
-.catalog-container {
-    width: 375px;
-    padding: 0 20px;
-}
-
-.catalog-title {
+.section-title {
     margin-bottom: 24px;
 }
 
@@ -75,7 +70,7 @@
         display: block;
     }
 
-    .catalog-title {
+    .section-title {
         margin-bottom: 40px;
     }
 
