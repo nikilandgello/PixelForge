@@ -248,6 +248,7 @@ body {
     font-family: 'Gilroy', sans-serif;
     color: var(--main);
     background-color: var(--background);
+    margin: 0;
 }
 
 :root {
