@@ -1,1 +1,214 @@
+.container {
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
 
+@media (min-width: 320px) and (max-width: 374px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+
+  .section-advertisement {
+background-image: linear-gradient(
+rgba(46, 47, 66, 0.7),
+rgba(46, 47, 66, 0.7)
+),
+url(../img/img-advertisement/1xpicmob.jpg);
+background-repeat: no-repeat;
+max-width: 335px;
+/* height: 363px; */
+text-align: center;
+background-color: #fbfbfb;;
+
+padding-bottom: 60px;
+margin-right: auto;
+margin-left: auto;
+background-position: center;
+background-size: cover;
+
+}
+@media screen and (webkit-min-device-pixel-ratio:2), (min-resolution: 2dppx), (min-resolution: 192dppi){
+  .section-advertisement{
+    background-image: linear-gradient(
+rgba(46, 47, 66, 0.7),
+rgba(46, 47, 66, 0.7)
+),
+url(../img/img-advertisement/2xpicmob.jpg);
+background-repeat: no-repeat;
+max-width: 335px;
+text-align: center;
+background-color: #0c0c0c;
+
+padding-bottom: 60px;
+margin-right: auto;
+margin-left: auto;
+background-position: center;
+  }
+  }
+  
+
+  .section{
+border-radius: 30px;
+width: 335px;
+  }
+
+  .paragraf-text{
+    font: 600 32px / 1 "Gilroy", sans-serif;
+letter-spacing: -0.02em;
+color: #fbfbfb;
+width: 279px;
+padding-left: 28px;
+padding-right: 28px;
+  }
+  .part-text{
+    font: 600 32px / 1 "Gilroy", sans-serif;
+color: rgba(251, 251, 251, 0.5);
+letter-spacing: -0.02em;
+  }
+
+  .link{
+width: 160px;
+height: 48px;
+  }
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+    .section{
+border-radius: 30px;
+width: 704px;
+  }
+  .section-advertisement{
+    width: 704px;
+height: 425px;
+background-image: linear-gradient(
+rgba(46, 47, 66, 0.7),
+rgba(46, 47, 66, 0.7)
+),
+url(../img/img-advertisement/1xpictab.jpg);
+background-repeat: no-repeat;
+max-width: 704px;
+text-align: center;
+background-color: #0c0c0c;
+
+padding-bottom: 60px;
+margin-right: auto;
+margin-left: auto;
+background-position: center;
+background-size: cover;
+  }
+}
+@media screen and (webkit-min-device-pixel-ratio:2), (min-resolution: 2dppx), (min-resolution: 192dppi){
+  .section-advertisement{
+    background-image: linear-gradient(
+rgba(46, 47, 66, 0.7),
+rgba(46, 47, 66, 0.7)
+),
+url(../img/img-advertisement/2xpictab.jpg);
+background-repeat: no-repeat;
+max-width: 704px;
+text-align: center;
+background-color: #0c0c0c;
+
+padding-bottom: 60px;
+margin-right: auto;
+margin-left: auto;
+background-position: center;
+  }
+
+  .paragraf-text{
+    font: 600 32px / 1 "Gilroy", sans-serif;
+letter-spacing: -0.02em;
+color: #fbfbfb;
+
+padding-left: 28px;
+padding-right: 28px;
+  }
+  .part-text{
+    font: 600 32px / 1 "Gilroy", sans-serif;
+color: rgba(251, 251, 251, 0.5);
+letter-spacing: -0.02em;
+  }
+
+  .link{
+    width: 160px;
+height: 48px;
+  }
+  }
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 65px;
+  }
+
+  .section{
+  border-radius: 30px;
+width: 704px;
+  }
+    .section-advertisement{
+    width: 1150px;
+
+background-image: linear-gradient(
+rgba(46, 47, 66, 0.7),
+rgba(46, 47, 66, 0.7)
+),
+url(../img/img-advertisement/1xpicdesk.jpg);
+background-repeat: no-repeat;
+max-width: 1150px;
+text-align: center;
+background-color: #0c0c0c;
+
+padding-bottom: 60px;
+margin-right: auto;
+margin-left: auto;
+background-position: center;
+background-size: cover;
+  }
+}
+@media screen and (webkit-min-device-pixel-ratio:2), (min-resolution: 2dppx), (min-resolution: 192dppi){
+  .section-advertisement{
+    background-image: linear-gradient(
+rgba(46, 47, 66, 0.7),
+rgba(46, 47, 66, 0.7)
+),
+url(../img/img-advertisement/2xpicdesk.jpg);
+background-repeat: no-repeat;
+max-width: 1150px;
+text-align: center;
+background-color: #0c0c0c;
+
+padding-bottom: 60px;
+margin-right: auto;
+margin-left: auto;
+background-position: center;
+  }
+  .paragraf-text{
+    font: 600 32px / 1 "Gilroy", sans-serif;
+letter-spacing: -0.02em;
+width: 690px;
+margin-left: 80px;
+color: #fbfbfb;
+padding-left: 28px;
+padding-right: 28px;
+  }
+  .part-text{
+    font: 600 32px / 1 "Gilroy", sans-serif;
+color: rgba(251, 251, 251, 0.5);
+letter-spacing: -0.02em;
+  }
+
+  .link{
+    width: 160px;
+height: 48px;
+margin-right: 80px;
+  }
+}
