@@ -1,8 +1,9 @@
+
 .hidden-item {
     display: none;
 }
 
-.section-title {
+.catalog-title {
     margin-bottom: 24px;
 }
 
@@ -32,6 +33,7 @@
 
 .catalog-picture {
     padding: 18px 36px;
+    margin-bottom: 10px;
 }
 
 .catalog-list {
@@ -70,7 +72,7 @@
         display: block;
     }
 
-    .section-title {
+    .catalog-title {
         margin-bottom: 40px;
     }
 
