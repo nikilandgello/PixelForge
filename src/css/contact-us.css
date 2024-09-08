@@ -1,13 +1,8 @@
-.container {
-    padding: 0;
-}
-
 .title {
     margin-bottom: 24px;
 }
 
 .form-div {
-    /* width: 335px; */
     background-color: var(--cards);
     border-radius: 30px;
     padding: 48px 28px;
