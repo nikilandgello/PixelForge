@@ -44,8 +44,7 @@
 }
 
 .catalog-btn {
-    display: flex;
-    justify-content: center;
+    display: block;
     border-radius: 16px;
     min-width: 160px;
     height: 48px;
@@ -58,8 +57,12 @@
     border: none;
     padding: 15px 44px;
     margin: 0 auto;
-    cursor: pointer;
     transition: background-color .25s cubic-bezier(.4, 0, .2, 1);
+}
+
+.catalog-btn:hover,
+.catalog-btn:focus {
+    background-color: #1f3cd4;
 }
 
 @media screen and (min-width: 768px) {
