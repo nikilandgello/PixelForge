@@ -14,51 +14,44 @@
 
 
 .section-items{
-  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
   url(/img/img-advertisement/1XMOB.jpg);
   background-repeat: no-repeat; 
 
 max-width: 335px;
-/* gap: 28px; */
 border-radius: 30px;
-
 padding: 60px 28px;
 background-position: center;
-
-background-color: var(--background);
-
+background-color: var(--main);
 }
 
 
 
 @media screen and (webkit-min-device-pixel-ratio:2), (min-resolution: 2dppx), (min-resolution: 192dppi){
   .section-items{
-    background-image: linear-gradient(
-(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8))
-),
+    background-image: linear-gradient
+(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
 
 url(/img/img-advertisement/2XMOB.jpg);
-background-repeat: no-repeat;
+
  }
   }
   
 
   .paragraf-text{
-    
-    font: 600 32px / 1 "Gilroy", sans-serif;
+font: 600 32px / 1 "Gilroy", sans-serif;
 letter-spacing: -0.02em;
 color: #fbfbfb;
-width: 279px;
-/* padding-left: 28px; */
-
+/* width: 279px; */
 margin-bottom: 28px;
   }
+
   .part-text{
-    font: 600 32px / 1 "Gilroy", sans-serif;
+font: 600 32px / 1 "Gilroy", sans-serif;
 color: rgba(251, 251, 251, 0.5);
 letter-spacing: -0.02em;
 line-height: 1.07;
-text-align: center;
+/* text-align: center; */
 margin-top: 60px;
 margin-bottom: 136px;
 margin-left: auto;
@@ -68,33 +61,17 @@ font-size: 32px;
 
   .link{
 width: 160px;
-/* height: 48px; */
-/* text-align: center;
-display: block;
-cursor: pointer; */
-/* border: 1px solid rgba(251, 251, 251, 0.15);
-border-radius: 16px; */
+border: 1px solid rgba(251, 251, 251, 0.15);
+border-radius: 16px;
 color: var(--background);
-
-/* margin-right: 147px;
-margin-top: 28px; */
 padding: 15px 44px;
   }
 
 
-
-
 @media screen and (min-width: 768px) {
-  /* .container {
-    max-width: 768px;
-    padding: 0 32px;
-    
-  } */
 
-
-  
-  .section-items{
-    width: 704px;
+.section-items{
+width: 704px;
 background-image: linear-gradient(
 (rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8))
 
@@ -103,7 +80,9 @@ url(/img/img-advertisement/1xpictab.jpg);
 background-repeat: no-repeat;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 max-width: 704px;
-text-align: center;
+padding: 80px 64px;
+height: 425px;
+/* І */
 background-color: #0c0c0c;
 border-radius: 30px;
 padding-bottom: 60px;
@@ -113,6 +92,7 @@ background-position: center;
 background-size: cover;
   }
 }
+
 @media screen and (webkit-min-device-pixel-ratio:2), (min-resolution: 2dppx), (min-resolution: 192dppi){
  .section-items{
     background-image: linear-gradient(
@@ -121,39 +101,39 @@ background-size: cover;
 url(/img/img-advertisement/2xpictab.jpg);
 background-repeat: no-repeat;
 
-  }
+}
 
   .paragraf-text{
     font: 600 32px / 1 "Gilroy", sans-serif;
 letter-spacing: -0.02em;
-color: #fbfbfb;
-padding-left: 28px;
-padding-right: 28px;
+font-size: 48px;
+margin-bottom: 32px;
+/* color: #fbfbfb; */
+/* padding-left: 28px;
+padding-right: 28px; */
   }
   .part-text{
     font: 600 32px / 1 "Gilroy", sans-serif;
 color: rgba(251, 251, 251, 0.5);
 letter-spacing: -0.02em;
+font-size: 48px;
   }
 
   .link{
     width: 160px;
-/* height: 48px; */
 border: 1px solid rgba(251, 251, 251, 0.15);
 border-radius: 16px;
   }
   }
 
-@media screen and (min-width: 1280px) {
-  /* .container {
-    max-width: 1280px;
-    padding: 0 65px;
-  } */
 
-    
-.section-items{
+/* 
+@media screen and (min-width: 1280px) {
+
+
+    .section-items{
    background-image: linear-gradient(
-/* rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25) */
+
 rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%)
 ,
 url(/img/img-advertisement/1xpicdesk.jpg);
@@ -164,8 +144,6 @@ text-align: center;
 background-color:#fff ;
  border-radius: 30px;
 padding-bottom: 60px;
-/* margin-right: auto;
-margin-left: auto; */
 background-position: center;
 background-size: cover;
 
@@ -175,7 +153,7 @@ background-size: cover;
 @media screen and (webkit-min-device-pixel-ratio:2), (min-resolution: 2dppx), (min-resolution: 192dppi){
   .section-items{
     background-image: linear-gradient(
-/* rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25) */
+
 rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%)
 ,
 url(/img/img-advertisement/2xpicdesk.jpg);
@@ -209,4 +187,4 @@ cursor: pointer;
 border: 1px solid #000;
 
   }
-}
+}  */
