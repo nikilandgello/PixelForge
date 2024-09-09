@@ -1,14 +1,8 @@
 /* #region main mobile screen */
 .ftr {
-  padding: 0 20px;
+  padding-bottom: 20px;
   min-width: 320px;
   margin: 0 auto;
-  /* @font-face {
-    font-family: Gilroy;
-    src: url('../fonts/Gilroy-Semibold.ttf');
-    font-weight: 500;
-    font-style: normal;
-  } */
 }
 
 .ftr-container {
@@ -19,9 +13,6 @@
   height: 581px;
   background-color: var(--main);
   border-radius: 30px;
-  /* border: 1px solid; */
-  margin-bottom: 0 auto 20px;
-  /* max-width: 375px; */
   justify-content: space-between;
 }
 
@@ -36,14 +27,10 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  /* margin-bottom: 92px; */
 }
 .ftr-logo {
   color: var(--background);
-  /* font-family: inherit; */
   font-size: 16px;
-  /* font-style: normal;
-  font-weight: 500; */
   line-height: normal;
   letter-spacing: -0.02em;
 }
@@ -88,32 +75,22 @@
   color: var(--background);
 
   text-align: center;
-  /* font-family: inherit; */
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
-  line-height: 16px; /* 133.333% */
-  /* text-transform: uppercase; */
-
+  line-height: 16px;
   margin: auto auto;
 }
 .ftr-txt {
   color: var(--background);
 
   text-align: center;
-  /* Mobile/H4 */
-  /* font-family: Gilroy; */
   font-size: 20px;
-  /* font-style: normal; */
   font-weight: 600;
-  line-height: 24px; /* 120% */
+  line-height: 24px; 
   letter-spacing: -0.02em;
   max-width: 279px;
 }
-/* .ftr-second {
-  display: flex;
-  gap: 49px;
-} */
 
 .ftr-nav-thumb {
   display: flex;
@@ -138,7 +115,6 @@
 .ftr-nav {
   display: block;
   max-width: 147px;
-  /* margin-right: 49px; */
 }
 .ftr-nav-list {
   display: flex;
@@ -149,22 +125,17 @@
   color: var(--background);
 
   text-align: center;
-  /* font-family: Gilroy; */
   font-size: 12px;
-  /* font-style: normal;
-  font-weight: 500; */
-  line-height: 16px; /* 133.333% */
+  line-height: 16px;
 }
 
 .location {
   color: var(--background);
 
-  /* font-family: Gilroy; */
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
-  line-height: 16px; /* 133.333% */
-  /* letter-spacing: -0.02em; */
+  line-height: 16px; 
   max-width: 83px;
 }
 
@@ -175,11 +146,8 @@
   gap: 8px;
   color: rgba(251, 251, 251, 0.5);
 
-  /* font-family: Gilroy; */
   font-size: 10px;
-  /* font-style: normal;
-  font-weight: 500; */
-  line-height: 14px; /* 140% */
+  line-height: 14px; 
   letter-spacing: -0.02em;
 }
 
@@ -200,7 +168,7 @@
 /* #region main tab and desk screen */
 @media screen and (min-width: 768px) {
   .ftr {
-    padding: 0 32px 32px;
+    padding-bottom: 32px;
   }
   .ftr-container {
     padding: 40px 40px 28px 40px;
@@ -217,11 +185,11 @@
   }
   .footer-contact {
     font-size: 14px;
-    line-height: 18px; /* 133.333% */
+    line-height: 18px;
   }
   .ftr-txt {
     font-size: 28px;
-    line-height: 32px; /* 120% */
+    line-height: 32px; 
     letter-spacing: -0.02em;
     max-width: 524px;
   }
@@ -240,11 +208,11 @@
 
     text-align: center;
     font-size: 14px;
-    line-height: 18px; /* 133.333% */
+    line-height: 18px; 
   }
   .location {
     font-size: 14px;
-    line-height: 18px; /* 133.333% */
+    line-height: 18px; 
     max-width: 162px;
   }
   .ftr-nav-thumb::after {
@@ -265,10 +233,9 @@
 }
 /* #endregion main tab and desk screen */
 /* #region main tab screen */
-@media screen and (min-width: 768px) and (max-width: 1279.8px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .ftr-container {
     max-width: 704px;
-    /* max-width: 768px; */
     height: 540px;
   }
   .cont {
@@ -283,7 +250,6 @@
   }
   .ftr-nav-thumb {
     display: flex;
-    /* gap: 62px; */
     justify-content: space-between;
     max-width: 624px;
     height: 36px;
@@ -291,14 +257,12 @@
   }
   .ftr-nav {
     max-width: 400px;
-    /* margin-right: 62px; */
   }
   .ftr-nav-list {
     gap: 19px;
   }
   .ftr-finish-txt {
     min-width: 261px;
-    /* margin-right: 159px; */
   }
 }
 /* #endregion main tab screen */
@@ -306,7 +270,6 @@
 @media screen and (min-width: 1280px) {
   .ftr-container {
     max-width: 1216px;
-    /* max-width: 1280px; */
     height: 400px;
   }
   .cont {
@@ -332,9 +295,6 @@
   }
   .ftr-nav-list {
     gap: 40px;
-  }
-  .ftr-finish-txt {
-    /* margin-right: 671px; */
   }
 }
 /* #endregion main tab screen */
