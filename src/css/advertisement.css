@@ -1,31 +1,31 @@
-.container {
+/* .container {
   max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
-}
+} */
 
 /* @media (min-width: 320px) and (max-width: 374px) { */
-  .container {
+  /* .container {
     width: 100%;
     padding: 0 20px;
     margin: 0 auto;
   }
-  
+   */
 
-  .section-items {
-background-image: linear-gradient((rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8))
-),
-url(/img/img-advertisement/1xpicmob.jpg);
-background-repeat: no-repeat; 
-/* flex-direction: column; */
-/* display: flex; */
+
+.section-items{
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url(/img/img-advertisement/1XMOB.jpg);
+  background-repeat: no-repeat; 
+
 max-width: 335px;
-gap: 28px;
-/* text-align: center; */
+/* gap: 28px; */
+border-radius: 30px;
+
 padding: 60px 28px;
 background-position: center;
-/* background-size: cover; */
-background-color: var(--main);
+
+background-color: var(--background);
 
 }
 
@@ -37,7 +37,7 @@ background-color: var(--main);
 (rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8))
 ),
 
-url(/img/img-advertisement/2xpicmob.jpg);
+url(/img/img-advertisement/2XMOB.jpg);
 background-repeat: no-repeat;
  }
   }
@@ -67,8 +67,8 @@ font-size: 32px;
   }
 
   .link{
-/* width: 160px;
-height: 48px; */
+width: 160px;
+/* height: 48px; */
 /* text-align: center;
 display: block;
 cursor: pointer; */
@@ -78,18 +78,18 @@ color: var(--background);
 
 /* margin-right: 147px;
 margin-top: 28px; */
-/* padding: 15px 44px; */
+padding: 15px 44px;
   }
 
 
 
 
 @media screen and (min-width: 768px) {
-  .container {
+  /* .container {
     max-width: 768px;
     padding: 0 32px;
     
-  }
+  } */
 
 
   
@@ -138,17 +138,17 @@ letter-spacing: -0.02em;
 
   .link{
     width: 160px;
-height: 48px;
+/* height: 48px; */
 border: 1px solid rgba(251, 251, 251, 0.15);
 border-radius: 16px;
   }
   }
 
 @media screen and (min-width: 1280px) {
-  .container {
+  /* .container {
     max-width: 1280px;
     padding: 0 65px;
-  }
+  } */
 
     
 .section-items{
@@ -207,5 +207,6 @@ border: 1px solid rgba(251, 251, 251, 0.15);
 border-radius: 16px;
 cursor: pointer;
 border: 1px solid #000;
+
   }
 }
