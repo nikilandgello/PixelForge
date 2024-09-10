@@ -166,3 +166,12 @@
     width: 410px;
   }
 }
+
+.around-holder {
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.around-holder:hover,
+.around-holder:hover .around.img {
+  transform: scale(1.1);
+}

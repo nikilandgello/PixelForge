@@ -148,3 +148,24 @@
              
 }
 
+.hero-accent {
+    background: radial-gradient(rgba(22, 34, 124, 0.89), var(--accent), rgba(22, 34, 124, 0.89));
+    background-clip: text;
+    color: transparent;
+    animation: color-text 5s linear infinite;
+    background-size: 200%, 200%;
+}
+
+@keyframes color-text {
+    0% {
+        background-position: 0%, 0%;
+    }
+
+    50% {
+        background-position: 100%, 100%;
+    }
+
+    100% {
+        background-position: 0%, 0%;
+    }
+}
