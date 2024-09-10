@@ -44,6 +44,10 @@
     background-color: #1f3cd4;
 }
 
+.about-us-img {
+    border: 30px;
+}
+
 @media screen and (min-width: 768px) {
     .container.about-us {
         gap: 40px;
@@ -60,6 +64,10 @@
 
     .section-text.about-us.lead {
         margin-bottom: 60px;
+    }
+
+    .about-us-img {
+        border: 50px;
     }
 }
 
