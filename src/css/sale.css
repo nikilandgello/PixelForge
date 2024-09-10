@@ -167,11 +167,19 @@
   }
 }
 
-.around-holder {
+.around-holder,
+.big-img-holder,
+.big-img,
+.around.img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .around-holder:hover,
 .around-holder:hover .around.img {
   transform: scale(1.1);
+}
+
+.big-img-holder:hover,
+.big-img-holder:hover .big-img {
+  transform: scale(1.04);
 }
