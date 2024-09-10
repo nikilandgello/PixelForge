@@ -1,5 +1,6 @@
 /* #region main mobile screen */
 .ftr {
+  padding-top: 30px ;
   padding-bottom: 20px;
   min-width: 320px;
   margin: 0 auto;
@@ -158,6 +159,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .ftr {
+    padding-top: 40px;
     width: 100%;
     padding: 0 20px;
     margin: 0 auto;
@@ -168,6 +170,7 @@
 /* #region main tab and desk screen */
 @media screen and (min-width: 768px) {
   .ftr {
+    padding-top: 50px;
     padding-bottom: 32px;
   }
   .ftr-container {
